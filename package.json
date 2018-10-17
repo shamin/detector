@@ -1,12 +1,12 @@
 {
-  "name": "detecter",
+  "name": "detector",
   "version": "1.0.0",
   "description": "An app to detect file changes",
   "author": "Shamin Meerankutty <shamin616@gmail.com>",
   "license": "ISC",
-  "repository": "https://github.com/shaminmeerankutty/detecter.git",
-  "homepage": "https://github.com/shaminmeerankutty/detecter",
-  "bugs": "https://github.com/shaminmeerankutty/detecter/issues",
+  "repository": "https://github.com/shaminmeerankutty/detector.git",
+  "homepage": "https://github.com/shaminmeerankutty/detector",
+  "bugs": "https://github.com/shaminmeerankutty/detector/issues",
   "keywords": [
     "probot",
     "github",
