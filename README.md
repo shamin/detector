@@ -1,7 +1,13 @@
 > [UNDER DEVELOPEMENT]
-# detector
 
-> A GitHub App built with [Probot](https://probot.github.io) that An app to detect file changes
+<p align="center">
+  <a href="">
+    <img width="100" height="100" alt="" src="https://user-images.githubusercontent.com/8272719/47097001-0cdea500-d24e-11e8-921d-b1288b122a3b.png"></a>
+</p>
+
+<h2 align="center">Detector</h2>
+
+<p align="center">A GitHub App built with Probot that detects file change</p>
 
 ## Setup
 
