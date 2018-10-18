@@ -12,8 +12,8 @@
 ## How to use
 
 - Install detector-io github app.
-- Create a .detector files with the file name that needs to be tracked.
-- Now detector app automatically checks and comments if there is a change in the file tracked in a pull request.
+- Create a `.detector` file with the file names that needs to be tracked.
+- Now detector app automatically checks and comments, if there is a change in the file tracked, in a pull request.
 
 ## Setup
 
