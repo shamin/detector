@@ -9,7 +9,7 @@
 
 <p align="center">A GitHub App built with Probot that detects file change</p>
 
-## How to use
+## Usage
 
 - Install detector-io github app.
 - Create a `.detector` file with the file names that needs to be tracked.
