@@ -22,10 +22,10 @@ tracked-files:
 
 ### Configuration file
 
-| parameters    | default       |
-| ------------- | ------------- |
-| absolute-paths| false         |
-| tracked-files | none          |
+| parameters    | description | default       |
+| ------------- |-------------| ------------- |
+| absolute-paths|If `true` will check for absolute paths of files in tracked-files.| false         |
+| tracked-files |Contains the list of files which need to be tracked for changes. | none          |
 
 ## Setup
 
