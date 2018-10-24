@@ -18,6 +18,8 @@ tracked-files:
 ```
 - Now detector app automatically checks and comments, if there is a change in the file tracked, in a pull request.
 
+![Detector screenshot](https://raw.githubusercontent.com/shaminmeerankutty/detector/master/screenshot.png)
+
 ### Configuration file
 
 | parameters    | description | default       |
