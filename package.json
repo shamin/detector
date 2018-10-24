@@ -37,6 +37,9 @@
       "jest"
     ]
   },
+  "now": {
+    "alias": "detector"
+  },
   "jest": {
     "testEnvironment": "node"
   },
