@@ -24,7 +24,7 @@ tracked-files:
 
 | parameters    | description | default       |
 | ------------- |-------------| ------------- |
-| absolute-paths|If `true` will check for absolute paths of files in tracked-files.| false         |
+| absolute-paths|If `true` will check for full path of files in tracked-files.| false         |
 | tracked-files |Contains the list of files which need to be tracked for changes. | none          |
 
 ## Setup
