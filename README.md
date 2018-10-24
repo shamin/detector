@@ -7,13 +7,25 @@
 
 <h2 align="center">Detector</h2>
 
-<p align="center">A GitHub App built with Probot that detects file change</p>
+<p align="center">A GitHub App built with <a href="https://github.com/probot/probot"">🤖Probot</a> that helps to track changes to important files.</p>
 
 ## Usage
 
 - Install detector-io github app.
-- Create a `.detector` file with the file names that needs to be tracked.
+- Create a `.detector.yml` file with the file names that needs to be tracked in the following structure
+```yml
+absolute-paths: true
+tracked-files:
+  - README.md
+```
 - Now detector app automatically checks and comments, if there is a change in the file tracked, in a pull request.
+
+### Configuration file
+
+| parameters    | default       |
+| ------------- | ------------- |
+| absolute-paths| false         |
+| tracked-files | none          |
 
 ## Setup
 
