@@ -1,5 +1,3 @@
-> [UNDER DEVELOPEMENT]
-
 <p align="center">
   <a href="">
     <img width="100" height="100" alt="" src="https://user-images.githubusercontent.com/8272719/47097001-0cdea500-d24e-11e8-921d-b1288b122a3b.png"></a>
@@ -19,6 +17,8 @@ tracked-files:
   - README.md
 ```
 - Now detector app automatically checks and comments, if there is a change in the file tracked, in a pull request.
+
+![Screenshot](https://raw.githubusercontent.com/shaminmeerankutty/detector/master/screenshot.png)
 
 ### Configuration file
 
