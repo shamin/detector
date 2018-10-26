@@ -5,6 +5,11 @@
 
 <h2 align="center">Detector</h2>
 
+
+<p align="center"> 
+<a href="https://travis-ci.org/shaminmeerankutty/detector"><img alt="Build Status" src="https://travis-ci.org/shaminmeerankutty/detector.png?branch=master"></a>
+</p>
+
 <p align="center">A GitHub App built with <a href="https://github.com/probot/probot"">🤖Probot</a> that helps to track changes to important files.</p>
 
 ## Usage
