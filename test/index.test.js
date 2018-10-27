@@ -1,6 +1,7 @@
 const { Application } = require('probot')
 const myProbotApp = require('..')
 const { CONFIG_FILE } = require('../lib/constants')
+const { getMatchingFiles } = require('../lib/utils')
 
 const pullrequestPayload = require('./fixtures/pullrequest.opened.json')
 
@@ -51,5 +52,11 @@ describe('Github Assistant', () => {
 
     // This test passes if the code in your index.js file calls `context.github.issues.createComment`
     expect(github.issues.createComment).toHaveBeenCalled()
+  })
+
+  test('checking get matching files function', async ()=>{
+    expect(getMatchingFiles(["src/index.js", "Readme.md"],["index.js"],true)).toEqual([])
+    expect(getMatchingFiles(["src/index.js", "Readme.md"],["index.js"],false)).toEqual(["index.js"])
+    expect(getMatchingFiles(["index.js", "Readme.md"],["Readme.md"],true)).toEqual(["Readme.md"])
   })
 })
